@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Game for memory | Js Exam</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="heading">
+        <h1>Game "MEMORY"</h1>
+        <p>После нажатия на кнопку старт игра начнется через 3 секунды!</p>
+        <button id="startBtn">start</button>
+        <button id="finishBtn" class="d-none">finish</button>
+    </div>
+    <hr>
+    <main>
+        <div class="card">
+            <img src="./img/heart.png" alt="image">
+        </div>
+        <div class="card">
+            <img src="./img/heart.png" alt="image">
+        </div>
+        <div class="card">
+            <img src="./img/star.png" alt="image">
+        </div>
+        <div class="card">
+            <img src="./img/star.png" alt="image">
+        </div>
+        <div class="card">
+            <img src="./img/circle.png" alt="image">
+        </div>
+        <div class="card">
+            <img src="./img/circle.png" alt="image">
+        </div>
+        <div class="card">
+            <img src="./img/triangle.png" alt="image">
+        </div>
+        <div class="card">
+            <img src="./img/triangle.png" alt="image">
+        </div>
+        <div class="card">
+            <img src="./img/polygon.png" alt="image">
+        </div>
+        <div class="card">
+            <img src="./img/polygon.png" alt="image">
+        </div>
+    </main>
+</div>
+
+
+<div class="modal-win">
+    <h2>You win!</h2>
+    <button id="playAgainBtn">Play again</button>
+</div>
+<div class="dark-block"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="./script.js"></script>
+</body>
+</html>
