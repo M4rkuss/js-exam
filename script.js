@@ -29,7 +29,6 @@ $('#startBtn').click(function () {
   let arr = [];
   $('.card').click(function () { // по клику показываем карточку
     counter++
-    // this.classList.remove('hidden');
     this.style.transform = 'none';
     this.style.background = '#fff';
     this.childNodes[1].style.opacity = '1';
